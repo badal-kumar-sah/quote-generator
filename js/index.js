@@ -40,7 +40,7 @@ function newQuote() {
 
 // Go to Github page (Basic funtionality To be changed in future)
 function githubPage() {
-  window.open("https://github.com/badal-kumar-sah");
+  window.open("https://github.com/badal-kumar-sah", "blank");
 }
 // Event Listener
 newQuoteButton.addEventListener("click", newQuote);
