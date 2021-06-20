@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/ios/452/circled-b.png"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div class="author">
+        <span id="author"></span>
+      </div>
+      <!-- Button -->
+      <div class="button-container">
+        <button class="github-button" id="github" title="Github repo">
+          <i class="fab fa-github"></i>
+        </button>
+        <button id="new-quote">Another One Please</button>
+      </div>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+    <!-- Script  -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
